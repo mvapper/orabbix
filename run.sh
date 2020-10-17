@@ -1,0 +1,1 @@
+java -Duser.language=en -Duser.country=US -Dlog4j.configuration=./log4j.properties -cp $(for i in lib/*.jar ; do echo -n $i: ; done).:./orabbix-1.2.4w.jar com.smartmarmot.orabbix.bootstrap start ./conf/config.props

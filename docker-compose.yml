@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+ orabbix:
+  image: orabbix
+  container_name: orabbix
+  volumes:
+    - ./conf:/usr/orabbix/conf:z
